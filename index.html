@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex-row cross-centered">
+        <h1 class="flex-row cross-centered">
+          <a class="logo" href="http://boolean.careers">
+            <img src="img/logo-boolean.png" alt="logo" />
+          </a>
+          <span>Campo Minato</span>
+        </h1>
+        <div class="toolbar">
+
+          <label for="level">Difficoltà</label>
+          <select name="level" id="level">
+            <option value="1">Easy</option>
+            <option value="2">Hard</option>
+            <option value="3">Crazy</option>
+          </select>
+
+          <button id="play-button">Play</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2 id="main-title" class="">Seleziona il livello di difficoltà e genera la griglia</h2>
+      <div id="grid" class="main-grid hidden">
+        <!-- <div class="square">
+          <span>1</span>
+        </div> -->
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        Made with &hearts; by <a href="http://boolean.careers">Boolean</a>
+      </div>
+    </footer>
+
+    <script src="js/scrit.js"></script>
+  </body>
+</html>
